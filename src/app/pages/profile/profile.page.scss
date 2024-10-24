@@ -1,0 +1,165 @@
+ion-content {
+  --background: var(--ion-dark-background);
+
+  h1 {
+    color: var(--Wild-Blue-Yonder-800);
+  }
+
+  .edit-icon {
+    width: 2.1875rem;
+    height: 2.1875rem;
+  }
+
+  .form-content {
+    width: 25vw;
+    margin: 0 auto;
+  }
+
+  ion-buttons {
+    ion-back-button {
+      color: var(--Wild-Blue-Yonder-800);
+    }
+  }
+
+  .profile-container {
+    width: 100%;
+    max-width: 18.75rem;
+    aspect-ratio: 3 / 2;
+    background: var(--background-gradient-purple);
+    position: relative;
+    border-radius: 0.6rem;
+    margin: 0 auto 3rem;
+    height: 20vh;
+    margin-top: 15%;
+
+    .user_name {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      ion-label {
+        margin-top: 15%;
+
+        h2 {
+          text-align: center;
+          color: var(--ion-color-white);
+          font-size: 1.375rem;
+        }
+
+        .email {
+          text-align: center;
+          color: var(--ion-color-white);
+          font-size: 0.75rem;
+        }
+
+        p {
+          text-align: center;
+          color: var(--ion-color-white);
+          font-family: Gilroy-Medium;
+          font-size: 1.4375rem;
+          font-weight: 400;
+          line-height: 1.725rem;
+        }
+      }
+    }
+  }
+
+  .avatar-placeholder {
+    width: 30%;
+    aspect-ratio: 1 / 1;
+    background-color: var(--ion-color-white);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 0.25rem solid transparent;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  ion-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .signout {
+    --background: var(--ion-dark-background);
+    margin-top: 5rem;
+  }
+
+  .setting-icons {
+    width: 1.67rem;
+    height: 1.58rem;
+    top: 0.21rem;
+    left: 0.17rem;
+    border: 1px 0px 0px 0px;
+    opacity: 0rem;
+  }
+
+  ion-list {
+    background: var(--background-transparent);
+
+    ion-item {
+      --background: var(--ion-dark-background);
+
+      ion-label {
+        h2 {
+          color: var(--Wild-Blue-Yonder-800);
+          font-size: 0.8125rem;
+        }
+
+        p {
+          color: var(--Wild-Blue-Yonder-800);
+          font-size: 1.4375rem;
+        }
+      }
+    }
+  }
+
+  .sign-out-icon,
+  .sign-out-label {
+    color: var(--ion-color-danger);
+  }
+
+  /* Responsive adjustments */
+
+  /* 320px–480px: Mobile devices (small phones) */
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    .form-content {
+      width: 90vw;
+    }
+  }
+
+  /* 481px–768px: iPads and tablets */
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    .form-content {
+      width: 80vw;
+    }
+
+  }
+
+  /* 769px–1024px: Small screens and laptops */
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .form-content {
+      width: 60vw;
+    }
+
+    
+  }
+
+  /* 1025px–1200px: Desktops and large screens */
+  @media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .form-content {
+      width: 40vw;
+    }
+  }
+
+  /* 1201px and more: Extra large screens and TVs */
+  @media screen and (min-width: 1201px) {
+    .form-content {
+      width: 25vw;
+    }
+
+  }
+}

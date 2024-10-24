@@ -1,0 +1,21 @@
+
+capacitor-google-map {
+    display: block;
+    width: 100%;
+    height: calc(90% - 56px);
+  }
+  
+  ion-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:var(--ion-dark-background);
+    color: var(--ion-label-border);
+    ion-icon{
+      color: var(--ion-label-border);
+    }
+    ion-label{
+      color: var(--ion-label-border);
+    }
+  }

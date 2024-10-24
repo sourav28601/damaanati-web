@@ -1,0 +1,77 @@
+ion-header {
+  --background: var(--ion-dark-background);
+  ion-toolbar {
+    ion-buttons{
+      color: var(--color-header-title);
+    }
+    --background: transparent;
+    --background: var(--ion-dark-background);
+    ion-title {
+      color: var(--color-header-title);
+      font-size: 1.56rem;
+      font-weight: 400;
+      text-align: center;
+      margin-right: 1.88rem;
+    }
+  }
+}
+
+ion-content {
+  --background: var(--ion-dark-background);
+  ion-list {
+    margin: 0;
+    padding: 0;
+
+    ion-item {
+      --background: var(--ion-dark-background);
+      color: var(--ion-button-text-color-active);
+      --ion-item-border-color: transparent; /* Ensures the border color is transparent */
+      border-bottom: none !important; /* Enforces no border at the bottom */
+      --border-width: 0; /* Optional: ensures no border width */
+
+      ion-img {
+        color: var(--ion-label-color);
+      }
+
+      ion-icon {
+        color: var(--ion-label-color);
+      }
+
+      /* Add space between ion-items, but no space for the last item */
+      // &:not(:last-child) {
+      //   margin-bottom: 0.75rem; /* Adjust as needed */
+      // }
+      // ion-item {
+      //   --ion-item-border-color: transparent; /* Ensures the border color is transparent */
+      //   border-bottom: none !important; /* Enforces no border at the bottom */
+      //   --border-width: 0; /* Optional: ensures no border width */
+      // }
+      
+    }
+  }
+
+  ion-label {
+    color: var(--ion-label-color);
+    font-family: Gilroy;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  ion-item {
+    --background: var(--ion-dark-background);
+  }
+  ion-icon {
+    width: 1.125rem;
+    height: 1.125rem;
+    padding: 0.37rem;
+  }
+  .sign-out-label {
+    color: var(--color-sign-out);
+  }
+  .setting-icons {
+    width: 1.667rem;
+    height: 1.583rem;
+  }
+}
+
+
+
