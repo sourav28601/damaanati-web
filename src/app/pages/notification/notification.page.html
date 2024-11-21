@@ -5,6 +5,7 @@
       <ion-back-button defaultHref="/">
         hello sourav button
       </ion-back-button>
+      <ion-back-button defaultHref="/"> abhi back</ion-back-button>
     </ion-buttons>
     <ion-title class="ion-text-center">{{ 'NOTIFICATIONS' | translate }}</ion-title>
   </ion-toolbar>
@@ -12,6 +13,7 @@
 
 <ion-content class="ion-padding">
   <div class="form-content">
+    <h2>jihjadfhsjkdfalks</h2>
     <ion-text class="ion-margin-start">{{ 'GET_NOTIFICATION_BEFORE_WARRANTY_ENDS' | translate }}</ion-text>
     <ion-radio-group [(ngModel)]="selectedNotificationPreference" (ionChange)="onNotificationPreferenceChange($event)">
       <ion-list class="custom-radio-group">
@@ -41,8 +43,13 @@
     <ion-text color="danger" *ngIf="showErrorMessage">
       <p>{{ errorMessage }}</p>
     </ion-text>
+
     <ion-item-divider></ion-item-divider>
+<<<<<<< HEAD
     <h1>sourav heading 123123</h1>
+=======
+    <h5>hdjfskjdhfkahfkj heelo abhi</h5>
+>>>>>>> new-branch
     <div class="ion-text-center save-button-margin">
       <ion-button expand="full" class="save-button" (click)="saveNotificationPreference()">{{ 'SAVE' | translate
         }}</ion-button>
