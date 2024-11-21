@@ -5,6 +5,7 @@
       <ion-buttons slot="start">
         <ion-back-button defaultHref="/"></ion-back-button>
       </ion-buttons>
+      <h1>Abhishek verma profile heading</h1>
       <ion-label class="ion-text-center">
         <h1>{{ 'PROFILE' | translate }}</h1>
       </ion-label>
@@ -35,6 +36,7 @@
         <p>{{userData?.gender}}</p>
       </ion-label>
     </ion-item>
+       <h1>Abhishek verma profile heading</h1>
     <ion-item lines="none">
       <ion-label>
         <h2>{{ 'CITY' | translate }}</h2>
@@ -90,7 +92,7 @@
           *ngIf="profileForm.get('name')?.hasError('forbiddenChars') && profileForm.get('name')?.touched">
           {{ 'NAME_FORBIDDEN_CHARS' | translate }}
         </ion-text>
-
+   <h1>Abhishek verma profile heading</h1>
         <div class="gender-radio-group">
           <ion-radio-group formControlName="gender">
             <ion-item lines="none">

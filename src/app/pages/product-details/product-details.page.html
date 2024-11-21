@@ -4,9 +4,11 @@
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/"></ion-back-button>
     </ion-buttons>
+     <h1>Abhishek verma profile heading</h1>
     <ion-title class="ion-text-center">{{ 'PRODUCT_DETAILS' | translate }}</ion-title>
   </ion-toolbar>
 </ion-header>
+  
 <ion-content class="ion-padding" fullscreen="true" mode="md">
   <div class="form-content">
   <div class="card-headings">
@@ -14,6 +16,7 @@
     <ion-buttons slot="end">
       <ion-button (click)="shareProduct()">
         <ion-icon name="arrow-redo-outline" class="share_icon"></ion-icon>
+      <h1>Abhishek verma profile heading</h1>
       </ion-button>
       <ion-button (click)="deleteProductDetail(product?.id)">
         <ion-icon name="trash-outline" color="danger" class="delete-icon"></ion-icon>
@@ -31,6 +34,7 @@
   <ion-item-divider class="ion-margin-top"></ion-item-divider>
   <div class="category-div">
     <div>
+       <h1>Abhishek verma profile heading</h1>
       <p>{{ 'CATEGORY' | translate }}</p>
       <ion-text slot="end">{{ product?.Category?.name }}</ion-text>
     </div>
@@ -45,6 +49,7 @@
 
   <div class="warranty-div">
     <div>
+       <h1>Abhishek verma profile heading</h1>
       <p>{{ 'WARRANTY_START_DATE' | translate }}</p>
       <ion-text slot="end">{{ product?.warranty_start_date | date:'dd-MMMM-yyyy' }}</ion-text>
     </div>
@@ -86,6 +91,7 @@
     <div>
     </div>
   </div>
+   <h1>Abhishek verma profile heading</h1>
   <ion-item-divider></ion-item-divider>
   <div class="shop-div">
     <div>

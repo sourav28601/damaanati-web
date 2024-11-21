@@ -17,13 +17,16 @@
         <ion-col size="12" size-md="6" size-lg="3" *ngFor="let product of categoryItems">
           <ion-card class="product-card" [routerLink]="['/product-details', product.id]">
             <div class="card-content">
+               <h1>Abhishek verma profile heading</h1>
               <div class="product-image">
+                
                 <img [src]="getProductImageSrc(product)"
                 [alt]="product?.product_name || 'Product image'"
                 (error)="onImgError($event)">
               </div>
               <div class="product-content">
                 <ion-card-header>
+                   <h1>Abhishek verma profile heading</h1>
                   <ion-card-title>{{ product.product_name }}</ion-card-title>
                 </ion-card-header>
                 <ion-card-content>
